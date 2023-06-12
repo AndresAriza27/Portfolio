@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/AndresAriza27/Portfolio/static/css/main.44f8b8b5.css",
-    "main.js": "/AndresAriza27/Portfolio/static/js/main.76489898.js",
-    "static/js/787.1ed0c42c.chunk.js": "/AndresAriza27/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Cwbg.png": "/AndresAriza27/Portfolio/static/media/Cwbg.5ae23c66b92e1b5eb989.png",
-    "static/media/Emailwbg.png": "/AndresAriza27/Portfolio/static/media/Emailwbg.b2e579270edb9dc2147d.png",
-    "static/media/Reactwbg.png": "/AndresAriza27/Portfolio/static/media/Reactwbg.68e9b079812df5030547.png",
-    "static/media/fotoc.jpg": "/AndresAriza27/Portfolio/static/media/fotoc.4c3cff9f5e373c65119d.jpg",
-    "static/media/CV.pdf": "/AndresAriza27/Portfolio/static/media/CV.8066e972be578009551b.pdf",
-    "static/media/Scrumwbg.png": "/AndresAriza27/Portfolio/static/media/Scrumwbg.42cc5122b59f1ceec7c2.png",
-    "static/media/Whatsappwbg.png": "/AndresAriza27/Portfolio/static/media/Whatsappwbg.b8f7f684ff5531c671c4.png",
-    "static/media/Githubwbg.png": "/AndresAriza27/Portfolio/static/media/Githubwbg.ef4022ac0eebc2077040.png",
-    "static/media/Linkedinwbg.png": "/AndresAriza27/Portfolio/static/media/Linkedinwbg.244972b672ada85e3ffb.png",
-    "index.html": "/AndresAriza27/Portfolio/index.html",
-    "main.44f8b8b5.css.map": "/AndresAriza27/Portfolio/static/css/main.44f8b8b5.css.map",
-    "main.76489898.js.map": "/AndresAriza27/Portfolio/static/js/main.76489898.js.map",
-    "787.1ed0c42c.chunk.js.map": "/AndresAriza27/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.44f8b8b5.css",
+    "main.js": "/Portfolio/static/js/main.5ffbb661.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Cwbg.png": "/Portfolio/static/media/Cwbg.5ae23c66b92e1b5eb989.png",
+    "static/media/Emailwbg.png": "/Portfolio/static/media/Emailwbg.b2e579270edb9dc2147d.png",
+    "static/media/Reactwbg.png": "/Portfolio/static/media/Reactwbg.68e9b079812df5030547.png",
+    "static/media/fotoc.jpg": "/Portfolio/static/media/fotoc.4c3cff9f5e373c65119d.jpg",
+    "static/media/CV.pdf": "/Portfolio/static/media/CV.8066e972be578009551b.pdf",
+    "static/media/Scrumwbg.png": "/Portfolio/static/media/Scrumwbg.42cc5122b59f1ceec7c2.png",
+    "static/media/Whatsappwbg.png": "/Portfolio/static/media/Whatsappwbg.b8f7f684ff5531c671c4.png",
+    "static/media/Githubwbg.png": "/Portfolio/static/media/Githubwbg.ef4022ac0eebc2077040.png",
+    "static/media/Linkedinwbg.png": "/Portfolio/static/media/Linkedinwbg.244972b672ada85e3ffb.png",
+    "index.html": "/Portfolio/index.html",
+    "main.44f8b8b5.css.map": "/Portfolio/static/css/main.44f8b8b5.css.map",
+    "main.5ffbb661.js.map": "/Portfolio/static/js/main.5ffbb661.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44f8b8b5.css",
-    "static/js/main.76489898.js"
+    "static/js/main.5ffbb661.js"
   ]
 }
