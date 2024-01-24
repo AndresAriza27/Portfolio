@@ -1,0 +1,34 @@
+{
+    "header": {
+        "home": "Inicio",
+        "about": "Sobre Mí",
+        "contact": "Contacto",
+        "language": "Idioma"
+    },
+    "jumbotron": {
+        "name": "Julian Andres Ariza Perez",
+        "subname": "Desarrollador de Software"
+    },
+    "tecnologies": {
+        "title": "Habilidades tecnicas",
+        "webdevelopment": "Desarrollo Web",
+        "languages": "Lenguajes",
+        "agilemethodologies": "Metodologías Ágiles",
+        "otherskills": "Otras Habilidades",
+        "skills": "Habilidades"
+    },
+    "information": {
+        "aboutme": "Sobre Mi",
+        "aboutmep": "¡Hola! Mi nombre es Julian Andrés Ariza Pérez, un desarrollador de software residente en Zipaquirá, Colombia. Disfruto el crear soluciones innovadoras y eficientes para solventar las problemáticas que se presenten a los clientes. Tengo 2 años de experiencia como freelancer, realizando algunos proyectos web y aplicaciones con lenguajes y frameworks como lo son React y C#. Además soy estudiante de ultimo año en la Licenciatura en Ingeniería de Sistemas, y demás estudios independientes y autónomos. Me encanta aprender cosas nuevas y estar al día con las últimas tendencias y herramientas del desarrollo de Software. Me considero un desarrollador creativo, proactivo y orientado al detalle, que siempre busca la mejor solución para cada problema.",
+        "btn": "Descarga mi Curriculum"
+    },
+    "contact": {
+        "title": "Contacto",
+        "contactus": "Contáctame",
+        "contactp": "Por favor llene este formulario",
+        "name": "Nombre",
+        "send": "Enviar",
+        "textarea": "Escriba su mensaje",
+        "message": "Mensaje"
+    }
+}

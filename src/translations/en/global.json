@@ -1,0 +1,34 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "contact": "Contact",
+        "language": "Language"
+    },
+    "jumbotron": {
+        "name": "Julian Andres Ariza Perez",
+        "subname": "Software Developer"
+    },
+    "tecnologies": {
+        "title": "Technical skills",
+        "webdevelopment": "Web Development",
+        "languages": "Languages",
+        "agilemethodologies": "Agile Methodologies",
+        "otherskills": "Other Skills",
+        "skills": "Skills"
+    },
+    "information": {
+        "aboutme": "About Me",
+        "aboutmep": "Hello! My name is Julian Andrés Ariza Pérez, a software developer residing in Zipaquirá, Colombia. I enjoy creating innovative and efficient solutions to solve any problems that clients may face. I have 2 years of experience as a freelancer, working on various web projects and applications using languages and frameworks such as React and C#. Additionally, I am a final year student in the Bachelor’s degree in Systems Engineering, and I pursue independent and autonomous studies. I love learning new things and keeping up with the latest trends and tools in software development. I consider myself a creative, proactive, and detail-oriented developer who always seeks the best solution for each problem.",
+        "btn": "Download my Curriculum"
+    },
+    "contact": {
+        "title": "Contact",
+        "contactus": "Contact Me",
+        "contactp": "Please fill this form",
+        "name": "Name",
+        "send": "Send",
+        "textarea": "Type your message",
+        "message": "Message"
+    }
+}

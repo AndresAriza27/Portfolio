@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Soraine;
+    src: url(../fonts/Soraine.otf);
+}
+.jumbotron {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+}
+.foto {
+    display: flex;
+    justify-content: center;
+    background-image: url(../imgs/FondoFoto.png);
+    background-size: 800px;
+    background-position: 0;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+.foto img {
+    border-radius: 0 0 30% 30%;
+    width: 500px;
+}
+.texto {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    font-family: Soraine;
+}
+.texto h1 {
+    font-size: 60px;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    text-align: center;
+}
+.texto h3 {
+    padding-top: 20px;
+    border-top: 1px solid #fff;
+    font-size: 30px;
+}
+@media only screen and (max-width:880px) {
+    .jumbotron {
+        height: 680px;
+        position: relative;
+    }
+    .texto {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        margin-top: 200px;
+    }
+    .texto h1 {
+        font-size: 50px;
+    }
+    .texto h3 {
+        font-size: 25px;
+    }
+    .foto {
+        filter: brightness(70%);
+        background-size: 300px;
+        background-position: 0;
+        width: 100%;
+        top: 0;
+        position: absolute;
+        z-index: 1;
+    }
+    .foto img {
+        width: 300px;
+    }
+}

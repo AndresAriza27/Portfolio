@@ -1,0 +1,118 @@
+:root {
+    --colorClaro : #6DA5C0;
+    --colorMuyOscuro : #05161A;
+    --colorBg : #072E33;
+    --colorVerdeOscuro : #0C7075;
+    --colorVerdeClaro : #0F969C;
+}
+@font-face {
+    font-family: Soraine;
+    src: url(../fonts/Soraine.otf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+.information {
+    margin: 50px 0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.information h3 {
+    font-size: 30px;
+    font-family: Soraine;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+}
+.about p {
+    font-size: 20px;
+    font-family: Roboto-Thin;
+
+}
+.aboutC {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.aboutT {
+    padding: 0 20px ;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.aboutImg {
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-image: url(../imgs/FondoFotoA.png);
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.aboutImg img {
+    border-radius: 0 0 20% 20%;
+    width: 300px;
+} 
+.cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn span {
+    font-family: Roboto-Thin;
+    font-size: 17px;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    margin: 0 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.btn button {
+    border: none;
+    background-color: transparent;
+}
+.btn img {
+    cursor: pointer;
+    width: 25px;
+}
+@media only screen and (max-width:880px) {
+    .about p {
+        font-size: 18px;
+    }
+    .aboutT {
+        width: 90%;
+    }
+    .aboutImg {
+        width: 0;
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .btns {
+        flex-wrap: 	wrap;
+    }
+    .btn {
+        margin: 10px 0;
+    }
+}

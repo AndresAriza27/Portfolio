@@ -1,0 +1,165 @@
+:root {
+    --colorClaro : #6DA5C0;
+    --colorMuyOscuro : #05161A;
+    --colorBg : #072E33;
+    --colorVerdeOscuro : #0C7075;
+    --colorVerdeClaro : #0F969C;
+}
+.header {
+    background-color: #072E33;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+}
+.logoHeader {
+    padding: 0 20px;
+    width: 100px;
+}
+.Navbar {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+.logoHeader {
+    align-items: center;
+    display: flex;
+    height: 70px;
+    width: 80px;
+}
+.logoHeader img {
+    width: 80px;
+}
+.enlaces {
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+}
+.Navbar {
+    display: flex;
+}
+.enlaces nav {
+    justify-content: end;
+    display: flex;
+    width: 100%;
+}
+.enlaces ul {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-inline-end: 0;
+    padding-inline-start: 0;
+    list-style: none;
+}
+.enlaces li {
+    transition: 0.3s;
+    cursor: pointer;
+    color: var(--colorClaro);
+    padding: 0 10px;
+    margin: 0 15px;
+}
+.enlaces img {
+    width: 40px;
+}
+
+.enlaces li:hover {
+    color: var(--colorVerdeClaro);
+}
+.enlaces select{
+    animation-name: example;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--colorVerdeClaro);
+    padding: 5px 5px;
+    margin: 0 20px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.enlaces select:hover {
+    background-color: var(--colorVerdeOscuro);
+}
+.menu-toggle img{
+    padding: 0;
+    width: 50px;
+    background-color: transparent;
+}
+.menu-toggle {
+    padding: 0;
+    display: flex;
+    background-color: transparent;
+}
+@keyframes example {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  header .nav-btn {
+    width: 1px;
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+    visibility: hidden;
+    opacity: 0;
+}
+@media only screen and (max-width:880px) {
+    .header {
+        background-color: transparent;
+    }
+    .logoHeader img {
+        width: 50px;
+    }
+    .enlaces li {
+        font-size: 18px;
+        color: #fff;
+        margin: 10px 0;
+    }
+    .enlaces select {
+        margin: 0 5px;
+    }
+    .header .nav-btn {
+        width: 50px;
+        visibility: visible;
+        opacity: 1;
+    }
+    .nav-btn img {
+        width: 40px;
+    }
+    header .nav-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--colorBg);
+        transition: 1s;
+        transform: translateY(-100vh);
+        font-size: 1rem;
+    }
+    header nav ul {
+
+        display: flex;
+        flex-direction: column;
+    }
+    header .responsive_nav{
+        transform: none;
+    }
+    nav .nav-close-btn {
+        position: absolute;
+        top: 0.7rem;
+        right: 0rem;
+    }
+}

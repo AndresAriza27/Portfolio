@@ -1,0 +1,8 @@
+@media only screen and (max-width:880px) {
+    .header {
+        z-index: 2;
+    }
+    .foto, .texto {
+        z-index: 1;
+    }
+}

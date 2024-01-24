@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Soraine;
+    src: url(../fonts/Soraine.otf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+ 
+:root {
+    --colorClaro : #6DA5C0;
+    --colorMuyOscuro : #05161A;
+    --colorBg : #072E33;
+    --colorVerdeOscuro : #0C7075;
+    --colorVerdeClaro : #0F969C;
+}
+
+.tecnologies {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tecnologies h3 {
+    font-size: 30px;
+    font-family: Soraine;
+}
+.tecno {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.division {
+    font-family: Roboto-Bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25px;
+    border-radius: 30px;
+}
+.division span {
+    font-size: 20px;
+}
+.secTec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tecGroup {
+    border-bottom: 2px solid var(--colorVerdeClaro);
+    padding-bottom: 10px;
+    margin: 5px 0;
+    display: flex;
+}
+.conjunt {
+    font-family: Roboto-Regular;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--colorVerdeClaro);
+    border-radius: 30px;
+    margin: 0 10px;
+}
+.conjunt span {
+    font-size: 20px;
+}
+.tecnology {
+    font-family: Roboto-Thin;
+    margin: 0 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tecnology span {
+    font-size: 16px;
+    margin: 10px 0 0 0;
+}
+.tecnology img {
+    margin: 0 15px;
+    width: 60px;
+}
+
+.spanDivision {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* #frontend {
+    width: 450px;
+}
+#backend {
+    width: 150px;
+}
+#others {   
+}
+#agm {
+    width: 200px;
+}
+#apis {
+    width: 200px;
+} */
+
+
+@media only screen and (max-width:880px) {
+    .secTec {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .tecnologies {
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+        padding-inline-end: 0;
+        padding-inline-start: 0;
+        width: 100%;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .conjunt {
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .tecGroup {
+        flex-wrap: wrap;
+    }
+    .division {
+        margin: 0;
+        margin: 0;
+        width: 200px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .tecnology {
+        padding: 5px;
+        margin: 5px 0;
+        flex-wrap: wrap;
+    }
+    .tecno {
+        width: 300px;
+        margin: 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .mvlView {
+        padding: 0;
+        margin: 10px 0;
+        width: 300px;
+    }
+    #frontend {
+        width: 300px;
+    }
+}
